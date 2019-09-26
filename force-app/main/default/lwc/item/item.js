@@ -223,7 +223,7 @@ export default class Item extends LightningElement {
         //Let's not log action item
         //This is based on "Inventory Manager" custom metadata type.
         //value of this is passed from parent component to child component
-        if(this.settings.Log_Item_Actions === false){
+        if(typeof(this.settings.invmgrnp__Log_Item_Actions) === 'undefined' || this.settings.invmgrnp__Log_Item_Actions === false){
             return true;
         }
         const fields = {};
