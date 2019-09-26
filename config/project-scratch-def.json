@@ -1,0 +1,11 @@
+{
+  "orgName": "Inventory Manager for Nonprofits",
+  "edition": "Partner Developer",
+  "namespace": "invmgrnp",
+  "features": ["AuthorApex","DebugApex"],
+  "settings": {
+        "orgPreferenceSettings": {
+            "s1DesktopEnabled": true
+        }
+    }  
+}

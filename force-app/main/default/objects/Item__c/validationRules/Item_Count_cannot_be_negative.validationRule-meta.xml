@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Item_Count_cannot_be_negative</fullName>
+    <active>true</active>
+    <description>Fail update if count goes below 0</description>
+    <errorConditionFormula>Count__c &lt;0</errorConditionFormula>
+    <errorMessage>Item Count cannot be negative</errorMessage>
+</ValidationRule>

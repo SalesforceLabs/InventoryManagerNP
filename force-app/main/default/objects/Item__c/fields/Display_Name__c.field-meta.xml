@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Display_Name__c</fullName>
+    <description>Type and SubType (eg Diapers Small)</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(SubType__c),Type__c,Type__c  &amp; &#39; - &#39; &amp; SubType__r.Name)</formula>
+    <inlineHelpText>Type and SubType (eg Diapers Small)</inlineHelpText>
+    <label>Name/Nombre</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

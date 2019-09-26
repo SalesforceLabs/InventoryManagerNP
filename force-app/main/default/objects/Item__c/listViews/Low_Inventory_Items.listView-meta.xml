@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Low_Inventory_Items</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>Location__c</columns>
+    <columns>Count__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Count__c</field>
+        <operation>lessOrEqual</operation>
+        <value>10</value>
+    </filters>
+    <label>Low (&lt;=10) Inventory Items</label>
+</ListView>

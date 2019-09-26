@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Item_Compact_Layout</fullName>
+    <fields>Display_Name__c</fields>
+    <fields>Type__c</fields>
+    <fields>SubType__c</fields>
+    <label>Item Compact Layout</label>
+</CompactLayout>
