@@ -6,4 +6,4 @@ sfdx force:user:permset:assign -n  Inventory_Management_full
 
 sfdx force:data:tree:import -p data/Plan.json
 
-sfdx force:org:open -p /lightning/n/invmgrnp__Inventory_Manager
+sfdx force:org:open -p /lightning/o/invmgrnp__Location__c/list
