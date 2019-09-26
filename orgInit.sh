@@ -1,6 +1,6 @@
-sfdx force:org:create -a invmgrscratchorgpkgtest -s -f config/project-scratch-def.json -d 7
+sfdx force:org:create -a invmgrscratchorg1 -s -f config/project-scratch-def.json 
 
-sfdx force:package:install --package 04t4T000001dIqN -w 20 
+sfdx force:source:push
 
 sfdx force:user:permset:assign -n  Inventory_Management_full
 
