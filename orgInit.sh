@@ -4,4 +4,4 @@ sfdx force:package:install --package 04t4T000001dHuU -w 20
 
 sfdx force:user:permset:assign -n  Inventory_Management_full
 
-sfdx force:org:open p
+sfdx force:org:open -p /lightning/n/invmgrnp__Inventory_Manager
