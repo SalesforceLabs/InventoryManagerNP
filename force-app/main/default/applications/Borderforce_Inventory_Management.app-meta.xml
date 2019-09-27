@@ -25,6 +25,8 @@
     <tabs>Location__c</tabs>
     <tabs>SubType__c</tabs>
     <tabs>Item_Action__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Borderforce_Inventory_Management_UtilityBar</utilityBar>
 </CustomApplication>
