@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "invmgrnp__Item__c",
+                "referenceId": "invmgrnp__Item__cRef2"
+            },
+            "invmgrnp__Type__c": "Shirt",
+            "invmgrnp__Location__c": "@invmgrnp__Location__cRef1",
+            "invmgrnp__Count__c": 2
+        },
+        {
+            "attributes": {
+                "type": "invmgrnp__Item__c",
+                "referenceId": "invmgrnp__Item__cRef3"
+            },
+            "invmgrnp__Type__c": "Pant",
+            "invmgrnp__Location__c": "@invmgrnp__Location__cRef1",
+            "invmgrnp__Count__c": 2
+        }
+    ]
+}
