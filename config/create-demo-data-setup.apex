@@ -1,0 +1,14 @@
+// Pre-setup: Like ENable Person Account
+// Separating it because Custom Setting doesn't show in records below if inserted in same transaction
+       
+
+//Reset the default admin user password because Scratch orgs don't supply password to be able to login directly
+User u = [select id,name, LastName, FirstName, username, ProfileId,  alias, email, TimeZoneSidKey, LanguageLocaleKey, EmailEncodingKey, LocaleSidKey
+          from User where IsActive=true and Profile.Name='System Administrator' limit 1];
+
+System.resetPassword (u.Id, true);
+
+User u = [Select Id from User where FirstName = 'User' and LastName='User'];
+invmgrnp__Location__c l = [Select Id, invmgrnp__Assigned_User__c from invmgrnp__Location__c where Name='Door'];
+l.invmgrnp__Assigned_User__c = u.Id;
+update l;
