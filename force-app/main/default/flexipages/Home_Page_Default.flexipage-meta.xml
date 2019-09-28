@@ -17,23 +17,11 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>home:eventContainer</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentName>home:recentRecordContainer</componentName>
-        </componentInstances>
         <mode>Replace</mode>
         <name>bottomLeft</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>runtime_sales_activities:todayTaskContainer</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentName>home:topDealsContainer</componentName>
-        </componentInstances>
         <mode>Replace</mode>
         <name>bottomRight</name>
         <type>Region</type>
