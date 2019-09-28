@@ -1,6 +1,6 @@
 sfdx force:org:create -a invmgrscratchorgpkgtest -s -f config/project-scratch-def.json -d 7
 
-sfdx force:package:install --package 04t4T000001dMbD -w 20 -s AllUsers
+sfdx force:package:install --package 04t4T000001dMbX -w 20 -s AllUsers
 
 sfdx force:user:permset:assign -n  Inventory_Management_full
 
