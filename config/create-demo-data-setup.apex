@@ -8,7 +8,7 @@ User u = [select id,name, LastName, FirstName, username, ProfileId,  alias, emai
 
 System.resetPassword (u.Id, true);
 
-User u = [Select Id from User where FirstName = 'User' and LastName='User'];
 invmgrnp__Location__c l = [Select Id, invmgrnp__Assigned_User__c from invmgrnp__Location__c where Name='Door'];
 l.invmgrnp__Assigned_User__c = u.Id;
 update l;
+
