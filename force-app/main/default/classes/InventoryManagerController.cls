@@ -10,7 +10,7 @@ public with sharing class InventoryManagerController {
                 Schema.Inventory_Manager__mdt.fields.QualifiedApiName, Schema.Inventory_Manager__mdt.fields.isEnabled__c
                 };
             Util.AccessController.assertAuthorizedToView(Schema.Inventory_Manager__mdt.getSobjectType(), fields);
-            //Cannot check for CRUD/FLS permission on public Custom Metadata Type
+            
             for(Inventory_Manager__mdt record: [SELECT QualifiedApiName, isEnabled__c FROM Inventory_Manager__mdt]) {
                 inventoryManagerSettings.put(record.QualifiedApiName, record.isEnabled__c);
             }
