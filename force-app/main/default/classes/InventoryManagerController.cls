@@ -4,11 +4,19 @@ public with sharing class InventoryManagerController {
     @AuraEnabled(cacheable=true)
     public static Map<String, Boolean> getSettings() {
         Map<String, Boolean> inventoryManagerSettings = new Map<String, Boolean>();
-
-        //Cannot check for CRUD/FLS permission on public Custom Metadata Type
-        for(Inventory_Manager__mdt record: [SELECT QualifiedApiName, isEnabled__c FROM Inventory_Manager__mdt]) {
-            inventoryManagerSettings.put(record.QualifiedApiName, record.isEnabled__c);
-        }
+        try{
+            //Check read permission on Metadata object and fields
+            List<Schema.SobjectField> fields = new List<Schema.SobjectField>{
+                Schema.Inventory_Manager__mdt.fields.QualifiedApiName, Schema.Inventory_Manager__mdt.fields.isEnabled__c
+                };
+            Util.AccessController.assertAuthorizedToView(Schema.Inventory_Manager__mdt.getSobjectType(), fields);
+            //Cannot check for CRUD/FLS permission on public Custom Metadata Type
+            for(Inventory_Manager__mdt record: [SELECT QualifiedApiName, isEnabled__c FROM Inventory_Manager__mdt]) {
+                inventoryManagerSettings.put(record.QualifiedApiName, record.isEnabled__c);
+            }
+        }catch(SFDCAccessControlException e){Util.log('InventoryManagerController:getSettings():SFDCAccessControlException' + e.getMessage());
+        }catch(Exception e){Util.log('InventoryManagerController:getSettings():Exception' + e.getMessage()); }
+        
 
         return inventoryManagerSettings;
     }
