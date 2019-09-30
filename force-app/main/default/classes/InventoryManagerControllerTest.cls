@@ -19,7 +19,7 @@ private class InventoryManagerControllerTest {
         
         System.assertEquals(true,userSettings.containsKey('Location'));
     }
-    
+    /**/
 	@istest
     private static void getUserSetttings_negative(){
         Location__c location = new Location__c();

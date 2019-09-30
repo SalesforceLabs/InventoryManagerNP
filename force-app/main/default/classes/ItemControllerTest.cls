@@ -1,5 +1,6 @@
 @istest
 public  class ItemControllerTest {
+    
     @TestSetup
     static void makeData(){
         
@@ -24,6 +25,7 @@ public  class ItemControllerTest {
         List<Item__c> items = ItemController.getItemList();
         System.assertEquals(10, items.size());
     }
+    /**/
     @isTest
     public static void getItemList_runAs() {
         // Setup test data

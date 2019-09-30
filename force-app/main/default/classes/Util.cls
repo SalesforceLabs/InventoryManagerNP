@@ -1,5 +1,5 @@
 public with sharing class Util {
-    public static Boolean debug = false;
+    public static Boolean debug = true;
     /**
      * @return the current ESAPI SFDCAccessController object being used to maintain the access control rules for this application.
      */

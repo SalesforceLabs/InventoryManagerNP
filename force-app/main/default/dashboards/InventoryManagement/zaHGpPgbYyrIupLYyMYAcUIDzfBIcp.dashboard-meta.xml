@@ -19,7 +19,7 @@
                     <axisBinding>y</axisBinding>
                     <column>Location__c.Items__r$Count__c</column>
                 </chartSummary>
-                <componentType>Bar</componentType>
+                <componentType>BarGrouped</componentType>
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
@@ -27,14 +27,19 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>Location__c$Name</groupingColumn>
+                <groupingColumn>Location__c.Items__r$Display_Name__c</groupingColumn>
                 <groupingSortProperties>
                     <groupingSorts>
                         <groupingLevel>g1</groupingLevel>
                         <sortOrder>a</sortOrder>
                     </groupingSorts>
+                    <groupingSorts>
+                        <groupingLevel>g2</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
                 </groupingSortProperties>
                 <header>Item Count by Location</header>
-                <legendPosition>Bottom</legendPosition>
+                <legendPosition>Right</legendPosition>
                 <report>InventoryManagement/Item_Count_by_Location_Zam</report>
                 <showPercentage>false</showPercentage>
                 <showValues>true</showValues>
