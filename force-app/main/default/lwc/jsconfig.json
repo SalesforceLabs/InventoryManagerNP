@@ -2,20 +2,7 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {
-            "c/item": [
-                "item/item.js"
-            ],
-            "c/itemCreate": [
-                "itemCreate/itemCreate.js"
-            ],
-            "c/items": [
-                "items/items.js"
-            ],
-            "c/modal": [
-                "modal/modal.js"
-            ]
-        }
+        "paths": {}
     },
     "include": [
         "**/*",
