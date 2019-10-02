@@ -28,6 +28,17 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentInstanceProperties>
+                <name>decorate</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>richTextValue</name>
+                <value>&lt;p&gt;&lt;b&gt;Inventory Manager App - Documentation&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Click &quot;Files&quot; tab&lt;/li&gt;&lt;li&gt;Click &quot;Libraries&quot; in the left side column&lt;/li&gt;&lt;li&gt;Click &quot;Asset Library&quot;&lt;/li&gt;&lt;li&gt;Open &quot;Guide to Inventory Management App&quot;&lt;/li&gt;&lt;/ul&gt;</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:richText</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentName>home:assistant</componentName>
         </componentInstances>
         <mode>Replace</mode>

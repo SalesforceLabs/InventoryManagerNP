@@ -27,6 +27,7 @@
     <tabs>Item_Action__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>standard-File</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Borderforce_Inventory_Management_UtilityBar</utilityBar>
 </CustomApplication>
