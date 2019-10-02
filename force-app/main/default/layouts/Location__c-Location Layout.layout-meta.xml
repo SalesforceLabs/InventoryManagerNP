@@ -59,6 +59,10 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Display_Name__c</fields>
+        <fields>Unit__c</fields>
+        <fields>Count__c</fields>
+        <fields>Active__c</fields>
         <relatedList>Item__c.Location__c</relatedList>
     </relatedLists>
     <relatedLists>

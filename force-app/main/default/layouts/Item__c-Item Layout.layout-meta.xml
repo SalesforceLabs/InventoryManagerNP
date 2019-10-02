@@ -91,6 +91,10 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Action__c</fields>
+        <fields>Location__c</fields>
+        <fields>User__c</fields>
+        <fields>Count__c</fields>
         <relatedList>Item_Action__c.Item__c</relatedList>
     </relatedLists>
     <relatedLists>
