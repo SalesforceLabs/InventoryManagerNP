@@ -27,7 +27,7 @@ export default class Item extends LightningElement {
     @api apexrefreshcalled;
     
     @track showActionButtons;
-    @track count;
+    @track count = 0;
     @track countChange = 0;
 
     invmgrnp__Count__c_old =0;
