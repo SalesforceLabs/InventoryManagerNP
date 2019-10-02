@@ -7,6 +7,7 @@ import Type_FIELD from '@salesforce/schema/Item__c.Type__c';
 import Location_FIELD from '@salesforce/schema/Item__c.Location__c';
 import Subtype_FIELD from '@salesforce/schema/Item__c.SubType__c';
 import Category_FIELD from '@salesforce/schema/Item__c.Category__c';
+import Count_FIELD from '@salesforce/schema/Item__c.Count__c';
 
 /**
  * Creates Account records.
@@ -18,6 +19,7 @@ export default class ItemCreate extends LightningElement {
     locationField = Location_FIELD;
     subtypeField = Subtype_FIELD;
     categoryField = Category_FIELD;
+    countField = Count_FIELD;
 
     @api submitForm() {
         this.template.querySelector('lightning-record-edit-form').submit();

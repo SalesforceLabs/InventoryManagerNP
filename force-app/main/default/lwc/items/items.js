@@ -60,9 +60,15 @@ export default class Items extends LightningElement {
 
     //On-demand refresh of apex data
     refreshData(){
-        refreshApex(this.wiredItemsResult);
-        refreshApex(this.wiredGetInventoryManagerSettingsResult);
-        refreshApex(this.wiredGetInventoryManagerUserSettingsResult);
+        if(typeof(this.wiredItemsResult.data) !== 'undefined'){
+            refreshApex(this.wiredItemsResult);
+        }
+        if(typeof(this.wiredGetInventoryManagerSettingsResult.data) !== 'undefined'){
+            refreshApex(this.wiredGetInventoryManagerSettingsResult);
+        }
+        if(typeof(this.wiredGetInventoryManagerUserSettingsResult.data) !== 'undefined'){
+            refreshApex(this.wiredGetInventoryManagerUserSettingsResult);
+        }
     }
     //New item event happened so refreshApex
     updateItemEventHandler(){

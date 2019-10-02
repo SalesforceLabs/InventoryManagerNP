@@ -9,7 +9,7 @@
     </lightning-card>
     <template if:true={items}>
         <template for:each={items} for:item="item">
-            <c-item key={item.Id} item={item} settings={settings} onupdateitemevent={updateItemEventHandler} onnewitemactionevent={newItemActionEventHandler}></c-item>
+            <c-item key={item.Id} item={item} settings={settings} onrefreshdata={refreshData} onupdateitemevent={updateItemEventHandler} onnewitemactionevent={newItemActionEventHandler}></c-item>
         </template>
     </template>
     <c-modal header="Create Item">

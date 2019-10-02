@@ -30,14 +30,14 @@ export default class Item extends LightningElement {
     @track count;
     @track countChange = 0;
 
-    invmgrnp__Count__c_old = 0;
+    invmgrnp__Count__c_old =0;
 
     renderedCallback() {
         //Track DB Inv Count locally so we can refresh it when it changes
         //This will change when refreshApex is called on parent component
-        if(this.invmgrnp__Count__c_old !== this.item.invmgrnp__Count__c){
-            this.invmgrnp__Count__c_old = this.item.invmgrnp__Count__c;
-            this.count = this.item.invmgrnp__Count__c;
+        if((typeof(this.item.invmgrnp__Count__c) === 'undefined') || (this.invmgrnp__Count__c_old !== this.item.invmgrnp__Count__c)){
+            this.invmgrnp__Count__c_old = (typeof(this.item.invmgrnp__Count__c) === 'undefined')?0:this.item.invmgrnp__Count__c;
+            this.count = (typeof(this.item.invmgrnp__Count__c) === 'undefined')?0:this.item.invmgrnp__Count__c;
         }        
     }
 
@@ -181,13 +181,19 @@ export default class Item extends LightningElement {
         const recordInput = { fields };        
         updateRecord(recordInput)
             .then(() => {
+                //Sometimes Item__c.Count__c field maybe empty. that will show as undefined
+                //In those cases, when we update the count, we want to refresh the data so the new data is filtered down
+                //If we don't, then it will always show as undefined and cause issues in renderedCallback()
+                if(typeof(this.item.invmgrnp__Count__c) === 'undefined'){
+                    const refreshdata = new CustomEvent('refreshdata');
+                    this.dispatchEvent(refreshdata);
+                }
                 //Hide Action buttons (if active)
                 this.showActionButtons = false;
 
                 //Dispatch event for parent component to do refreshApex (or any other action) when item is updated
                 // Creates the event with the contact ID data.
                 const updateItemEvent = new CustomEvent('updateitemevent');
-                //const newItemActionEvent = new CustomEvent('newitemactionevent', { detail: this.itemActionId });
 
                 // Dispatches the event.
                 this.dispatchEvent(updateItemEvent);
