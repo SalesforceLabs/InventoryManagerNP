@@ -4,13 +4,13 @@ import getItemList from '@salesforce/apex/ItemController.getItemList';
 import getInventoryManagerSettings from '@salesforce/apex/InventoryManagerController.getSettings';
 import getInventoryManagerUserSettings from '@salesforce/apex/InventoryManagerController.getUserSettings';
 
+/* eslint-disable no-console */
 
 export default class Items extends LightningElement {
     @track items;
     @track settings;
     @track location;//Track user location for when creating new item
     @track error;
-    @track apexRefreshCalled = false;
 
     @track openmodel = false;
     openmodal() {
@@ -27,11 +27,15 @@ export default class Items extends LightningElement {
     }
     //new item created, refresh data so it shows up
     onItemCreated(){
-        this.apexRefreshCalled = true;
         refreshApex(this.wiredItemsResult);
         refreshApex(this.wiredGetInventoryManagerSettingsResult);
         const modal = this.template.querySelector('c-modal');
         modal.hide();
+    }
+    connectedCallback() {
+        //When tab changes, data is reloaded but item.js doesn't show correct data because of if condition
+        //So we refreshData() when component is reloaded on tab change
+        this.refreshData();
     }
 
     //Get List of items for this particular location
@@ -56,7 +60,6 @@ export default class Items extends LightningElement {
 
     //On-demand refresh of apex data
     refreshData(){
-        this.apexRefreshCalled = true;
         refreshApex(this.wiredItemsResult);
         refreshApex(this.wiredGetInventoryManagerSettingsResult);
         refreshApex(this.wiredGetInventoryManagerUserSettingsResult);

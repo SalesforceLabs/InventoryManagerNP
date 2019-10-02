@@ -18,28 +18,27 @@ import Item_FIELD from '@salesforce/schema/Item_Action__c.Item__c';
 import Location_FIELD from '@salesforce/schema/Item_Action__c.Location__c';
 import User_FIELD from '@salesforce/schema/Item_Action__c.User__c';
 
+/* eslint-disable no-console */
 
 export default class Item extends LightningElement {
     @api item;
     @api settings;
     @api key;
-    @api apexrefreshcalled = false;
+    @api apexrefreshcalled;
     
     @track showActionButtons;
     @track count;
     @track countChange = 0;
 
-    
-    renderedCallback() {
-        //Store value of Item__c.Count__c for any particular item in local field
-        //We need to keep track of this field and make sure it only changes when inventory is changed
-        //This will be refreshed on app load and will be used through the lifecucle to update salesforce record
-        if(typeof(this.item) !== 'undefined' && (typeof(this.count) === 'undefined' || this.apexrefreshcalled===true)){
-            this.count = this.item.invmgrnp__Count__c;
+    invmgrnp__Count__c_old = 0;
 
-            //Set APex refresh to false otherwise it will get into this if statement every time
-            this.apexrefreshcalled = false;
-        }
+    renderedCallback() {
+        //Track DB Inv Count locally so we can refresh it when it changes
+        //This will change when refreshApex is called on parent component
+        if(this.invmgrnp__Count__c_old !== this.item.invmgrnp__Count__c){
+            this.invmgrnp__Count__c_old = this.item.invmgrnp__Count__c;
+            this.count = this.item.invmgrnp__Count__c;
+        }        
     }
 
     //Add 1 item to inventory
