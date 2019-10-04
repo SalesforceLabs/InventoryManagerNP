@@ -4,7 +4,8 @@
   "features": ["AuthorApex","DebugApex"],
   "settings": {
         "orgPreferenceSettings": {
-            "s1DesktopEnabled": true
+            "s1DesktopEnabled": true,
+            "chatterEnabled": true
         }
     }  
 }

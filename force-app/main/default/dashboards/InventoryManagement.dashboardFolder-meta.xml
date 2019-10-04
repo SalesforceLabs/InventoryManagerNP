@@ -2,8 +2,8 @@
 <DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo></sharedTo>
-        <sharedToType>User</sharedToType>
+        <sharedTo>CEO</sharedTo>
+        <sharedToType>Role</sharedToType>
     </folderShares>
     <name>Inventory Management</name>
 </DashboardFolder>
