@@ -12,21 +12,35 @@
             <c-item key={item.Id} item={item} settings={settings} onrefreshdata={refreshData} onupdateitemevent={updateItemEventHandler} onnewitemactionevent={newItemActionEventHandler}></c-item>
         </template>
     </template>
-    <c-modal header="Create Item">
-        <c-item-create location={location} onitemcreated={onItemCreated}></c-item-create>
+    <template if:true={showModal}>
+        <c-modal header="Create Item"  onclosedialog={handleCancelModal}>
+            <div slot="header">
+                <lightning-button
+                    label="Create Item"
+                    variant="neutral"
+                    onclick={handleCreateItem}
+                ></lightning-button>
+                <lightning-button
+                    label="Close"
+                    variant="brand"
+                    onclick={handleCancelModal}
+                ></lightning-button>
+            </div>
+            <c-item-create location={location} onitemcreated={onItemCreated}></c-item-create>
 
-        <div slot="footer">
-            <lightning-button
-                label="Create Item"
-                variant="neutral"
-                onclick={handleCreateItem}
-            ></lightning-button>
-            <lightning-button
-                label="Close"
-                variant="brand"
-                onclick={handleCancelModal}
-            ></lightning-button>
-        </div>
-    </c-modal>
+            <div slot="footer">
+                <lightning-button
+                    label="Create Item"
+                    variant="neutral"
+                    onclick={handleCreateItem}
+                ></lightning-button>
+                <lightning-button
+                    label="Close"
+                    variant="brand"
+                    onclick={handleCancelModal}
+                ></lightning-button>
+            </div>
+        </c-modal>
+    </template>
     
 </template>
