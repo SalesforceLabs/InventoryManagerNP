@@ -16,8 +16,7 @@ export default class Items extends LightningElement {
 
     openmodal() {
         this.showModal = true;
-        const modal = this.template.querySelector('c-modal');
-        modal.show();
+        this.template.querySelector('c-modal').show();
     }
     handleCreateItem() {
         const modal = this.template.querySelector('c-item-create');

@@ -8,6 +8,7 @@ import Location_FIELD from '@salesforce/schema/Item__c.Location__c';
 import Subtype_FIELD from '@salesforce/schema/Item__c.SubType__c';
 import Category_FIELD from '@salesforce/schema/Item__c.Category__c';
 import Count_FIELD from '@salesforce/schema/Item__c.Count__c';
+/* eslint-disable no-console */
 
 /**
  * Creates Account records.
