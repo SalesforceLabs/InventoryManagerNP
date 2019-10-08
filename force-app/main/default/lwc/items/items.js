@@ -12,10 +12,7 @@ export default class Items extends LightningElement {
     @track location;//Track user location for when creating new item
     @track error;
 
-    @track showModal = false;
-
     openmodal() {
-        this.showModal = true;
         this.template.querySelector('c-modal').show();
     }
     handleCreateItem() {
@@ -23,7 +20,6 @@ export default class Items extends LightningElement {
         modal.submitForm();
     } 
     handleCancelModal() {
-        this.showModal = false;
         const modal = this.template.querySelector('c-modal');
         modal.hide();
     }
