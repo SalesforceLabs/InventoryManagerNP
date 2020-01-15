@@ -18,3 +18,14 @@ Objects:
 * Item__c: Link an item to an location (Which is linked to a user) for it to show up in the app
 * Subtype__c: To store subtype of an item
 * invmgrnp__Inventory_Manager__mdt (Custom Metadata Type): Edit "Log_Item_Actions" and enable "invmgrnp__isEnabled__c" to log ALL Item actions (Add/Remove). This is disabled by default to not store all the data.
+
+Custom Metadata Type:
+* Go to Setup -> Custom Metadata Types
+* Click on "Inventory Manager"
+* Click "Edit" on "Inventory Manager Layout"
+* Move "isEnabled" field to the page layout
+* Click "Save"
+* Click "Manage Inventory Manager"
+* Click "Edit" on "Log Item Actions"
+* Enable/Disable "isEnabled" 
+This will decide whether to log inventory actions in itemActions objects
