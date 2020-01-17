@@ -30,6 +30,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Item__c.Below_Threshhold__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Item__c.Category__c</field>
         <readable>true</readable>
@@ -57,6 +62,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Item__c.Sub_Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Item__c.Threshhold_Limit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

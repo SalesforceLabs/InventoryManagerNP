@@ -64,7 +64,7 @@
                         <type>detail</type>
                     </flexTableColumn>
                     <flexTableColumn>
-                        <reportColumn>Location__c.Name</reportColumn>
+                        <reportColumn>FK_NAME</reportColumn>
                         <showSubTotal>false</showSubTotal>
                         <showTotal>false</showTotal>
                         <type>detail</type>
@@ -83,10 +83,10 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>Low Quantity Items</header>
-                <report>InventoryManagement/Low_Quantity_Items_wuX</report>
+                <report>InventoryManagement/Low_Quantity_Items_hn8</report>
             </dashboardComponent>
             <rowIndex>9</rowIndex>
-            <rowSpan>8</rowSpan>
+            <rowSpan>9</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
             <colSpan>6</colSpan>
@@ -126,7 +126,7 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <runningUser>test-cgx9knnpej9w@example.com</runningUser>
+    <runningUser>test-k7ounimhbk0i@example.com</runningUser>
     <textColor>#000000</textColor>
     <title>Inventory Counts</title>
     <titleColor>#000000</titleColor>

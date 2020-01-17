@@ -25,7 +25,7 @@
         </criteriaItems>
     </filter>
     <format>Tabular</format>
-    <name>Low Quantity Items</name>
+    <name>Low Quantity Items (OLD)</name>
     <params>
         <name>co</name>
         <value>1</value>
