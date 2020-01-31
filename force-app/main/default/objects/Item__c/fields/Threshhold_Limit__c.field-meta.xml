@@ -2,8 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Threshhold_Limit__c</fullName>
     <defaultValue>20</defaultValue>
-    <description>Number below which this item will show up in Low Quantity report</description>
+    <description>If Count &lt; Threshhold Limit Number then this item will show up in Low Quantity report</description>
     <externalId>false</externalId>
+    <inlineHelpText>If Count &lt; Threshhold Limit Number then this item will show up in Low Quantity report</inlineHelpText>
     <label>Threshhold Limit</label>
     <precision>18</precision>
     <required>false</required>

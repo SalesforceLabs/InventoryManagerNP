@@ -9,3 +9,7 @@ sfdx force:data:tree:import -p data/Plan.json
 sfdx force:apex:execute -f config/create-demo-data-setup.apex
 
 sfdx force:org:open -p /lightning/o/invmgrnp__Location__c/list
+
+
+#Deploy to Dev Org: Use -c to check only first
+#sfdx force:mdapi:deploy -d src -u invmgrpkgorg -w 100

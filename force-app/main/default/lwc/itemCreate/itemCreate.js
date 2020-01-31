@@ -8,6 +8,7 @@ import Location_FIELD from '@salesforce/schema/Item__c.Location__c';
 import Subtype_FIELD from '@salesforce/schema/Item__c.SubType__c';
 import Category_FIELD from '@salesforce/schema/Item__c.Category__c';
 import Count_FIELD from '@salesforce/schema/Item__c.Count__c';
+import Threshold_Count_FIELD from '@salesforce/schema/Item__c.Threshhold_Limit__c';
 /* eslint-disable no-console */
 
 /**
@@ -21,6 +22,7 @@ export default class ItemCreate extends LightningElement {
     subtypeField = Subtype_FIELD;
     categoryField = Category_FIELD;
     countField = Count_FIELD;
+    threshHoldCountField = Threshold_Count_FIELD;
 
     @api submitForm() {
         this.template.querySelector('lightning-record-edit-form').submit();

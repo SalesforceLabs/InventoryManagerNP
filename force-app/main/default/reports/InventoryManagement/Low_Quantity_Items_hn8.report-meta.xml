@@ -10,6 +10,10 @@
         <aggregateTypes>Sum</aggregateTypes>
         <field>Item__c.Count__c</field>
     </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Item__c.Threshhold_Limit__c</field>
+    </columns>
     <filter>
         <criteriaItems>
             <column>Item__c.Below_Threshhold__c</column>
