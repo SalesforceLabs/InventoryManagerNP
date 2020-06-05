@@ -32,11 +32,23 @@ export default class Modal extends LightningElement {
     }
 
     handleSlotTaglineChange() {
+        //No need to do anything as modal is not visible anymore
+        //Otherwise querySelector may return null
+        //https://github.com/SalesforceLabs/InventoryManagerNP/issues/4
+        if(this.showModal === false){
+            return;
+        }
         const taglineEl = this.template.querySelector('p');
         taglineEl.classList.remove(CSS_CLASS);
     }
 
     handleSlotFooterChange() {
+        //No need to do anything as modal is not visible anymore
+        //Otherwise querySelector may return null
+        //https://github.com/SalesforceLabs/InventoryManagerNP/issues/4
+        if(this.showModal === false){
+            return;
+        }
         const footerEl = this.template.querySelector('footer');
         footerEl.classList.remove(CSS_CLASS);
     }
