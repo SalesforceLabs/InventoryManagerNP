@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "namespace": "invmgrnp",
+  "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "46.0"
 }
