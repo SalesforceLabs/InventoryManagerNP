@@ -19,6 +19,31 @@ public  class ItemControllerTest {
             items.add(item);
         }
         insert items;
+        
+        
+        Location__c loc2 = new Location__c();
+        loc2.Name = 'Location 1';
+        //Location without any assigned user
+        //loc.Assigned_User__c = UserInfo.getUserId();
+        insert loc2;
+        
+        List<Item__c> items2 = new List<Item__c>();
+        for(Integer i=0; i<5; i++){
+            Item__c item = new Item__c();
+            item.Type__c = 'Item Name ' + i;
+            item.Location__c = loc2.Id;
+            item.Count__c = 1;
+            item.Active__c = true;
+            items2.add(item);
+        }
+        insert items2;
+    }
+    @isTest
+    private static void getItemList_positive_for_unassigned_locations(){
+        //Show all items even if assigned an unassigned location
+        ItemController.showAllItemsTestOverride = true;
+        List<Item__c> items = ItemController.getItemList();
+        System.assertEquals(15, items.size());
     }
     @isTest
     private static void getItemList_positive(){
