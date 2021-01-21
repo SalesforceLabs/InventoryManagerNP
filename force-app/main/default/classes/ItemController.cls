@@ -13,7 +13,7 @@ public with sharing class ItemController {
         try{
             Map<String, Boolean> inventoryManagerSettings = InventoryManagerController.getSettings();            
             
-            itemList = [SELECT Id, Name, Category__c, Count__c, Item_Description__c, Location__c,
+            itemList = [SELECT Id, Name, Category__c, Count__c, Item_Description__c, Location__c, Location__r.Name,
                         Display_Name__c, Sub_Category__c, SubType__c, Type__c
                     FROM Item__c
                     WHERE Active__c = true and Location__c in (select id from Location__c where Assigned_User__c=:UserInfo.getUserId())
@@ -27,7 +27,7 @@ public with sharing class ItemController {
             //If admin wants to also show items where location doesn't have assigned user then they can turn it on in "Inventory Manager" Custom metadata type
             if(showAllItems){
                 itemList.addAll(
-                    [SELECT Id, Name, Category__c, Count__c, Item_Description__c, Location__c,
+                    [SELECT Id, Name, Category__c, Count__c, Item_Description__c, Location__c, Location__r.Name,
                         Display_Name__c, Sub_Category__c, SubType__c, Type__c
                     FROM Item__c
                     WHERE Active__c = true and Location__c in (select id from Location__c where Assigned_User__c=null)

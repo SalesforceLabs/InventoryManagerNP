@@ -41,6 +41,7 @@ export default class Items extends LightningElement {
     wiredGetItemList(result){
         //Keep track of the result so we can use this in refreshApex()
         this.wiredItemsResult = result;
+        console.log('result:', result);
         //Check if there is an error while retriving the list
         if (result.error) {
             this.error = 'Unknown error';
