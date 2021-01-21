@@ -20,16 +20,18 @@ Objects:
 * invmgrnp__Inventory_Manager__mdt (Custom Metadata Type): Edit "Log_Item_Actions" and enable "invmgrnp__isEnabled__c" to log ALL Item actions (Add/Remove). This is disabled by default to not store all the data.
 
 Custom Metadata Type:
+Following is needed to start logging action items:
 - Go to Setup -> Custom Metadata Types
 - Click on "Inventory Manager"
-- Click "Edit" on "Inventory Manager Layout"
-- Move "isEnabled" field to the page layout
-- Click "Save"
+  - Click "Edit" on "Inventory Manager Layout"
+  - Move "isEnabled" field to the page layout
+  - Click "Save"
 - Click "Manage Inventory Manager"
--- Click "Edit" on "Log Item Actions"
--- Enable/Disable "isEnabled" 
--- This will decide whether to log inventory actions in itemActions objects
+  - Click "Edit" on "Log Item Actions"
+  - Enable/Disable "isEnabled" 
+  
+All locations must have an assigned user. However, this change will make so that any items assigned to an un-assigned location will show up for ALL users. This can be used to show same items to multiple users as long as location has no assigned user 
 - Click "Edit" on "Show Items in Locations without User"
--- Enable/Disable "isEnabled" 
--- This will show items from locations assigned to current user as well as items from ALL location which has no assigned users
--- This can be used to show same items to multiple users as long as location has no assigned user
+  - Enable/Disable "isEnabled" 
+  - This will show items from locations assigned to current user as well as items from ALL location which has no assigned users
+  - This can be used to show same items to multiple users as long as location has no assigned user
