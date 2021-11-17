@@ -1,4 +1,4 @@
-import { LightningElement, api, track } from 'lwc';
+import { LightningElement, api } from 'lwc';
 
 import UserId from '@salesforce/user/Id';
 
@@ -26,9 +26,9 @@ export default class Item extends LightningElement {
     @api key;
     @api apexrefreshcalled;
     
-    @track showActionButtons;
-    @track count = 0;
-    @track countChange = 0;
+    showActionButtons;
+    count = 0;
+    countChange = 0;
 
     invmgrnp__Count__c_old =0;
 
@@ -37,7 +37,7 @@ export default class Item extends LightningElement {
         //This will change when refreshApex is called on parent component
         if((typeof(this.item.invmgrnp__Count__c) === 'undefined') || (this.invmgrnp__Count__c_old !== this.item.invmgrnp__Count__c)){
             this.invmgrnp__Count__c_old = (typeof(this.item.invmgrnp__Count__c) === 'undefined')?0:this.item.invmgrnp__Count__c;
-            this.count = (typeof(this.item.invmgrnp__Count__c) === 'undefined')?0:this.item.invmgrnp__Count__c;
+            this.count = (typeof(this.item.invmgrnp__Count__c) === 'undefined')?0:this.item.invmgrnp__Count__c;            
         }        
     }
 

@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Location__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Location__cs.json"
+        ]
+    },
+    {
+        "sobject": "Location__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Item__cs.json"
+        ]
+    }
+]

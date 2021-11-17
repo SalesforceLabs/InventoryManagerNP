@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "invmgrnp__Item__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Item__cs.json"
+        ]
+    }
+]

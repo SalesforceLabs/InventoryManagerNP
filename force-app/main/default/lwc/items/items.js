@@ -1,4 +1,4 @@
-import { LightningElement, wire, track } from 'lwc';
+import { LightningElement, wire } from 'lwc';
 import { refreshApex } from '@salesforce/apex';
 import getItemList from '@salesforce/apex/ItemController.getItemList';
 import getInventoryManagerSettings from '@salesforce/apex/InventoryManagerController.getSettings';
@@ -7,10 +7,10 @@ import getInventoryManagerUserSettings from '@salesforce/apex/InventoryManagerCo
 /* eslint-disable no-console */
 
 export default class Items extends LightningElement {
-    @track items;
-    @track settings;
-    @track location;//Track user location for when creating new item
-    @track error;
+    items;
+    settings;
+    location;//Track user location for when creating new item
+    error;
 
     openmodal() {
         this.template.querySelector('c-modal').show();
