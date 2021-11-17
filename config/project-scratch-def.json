@@ -1,6 +1,6 @@
 {
   "orgName": "Inventory Manager for Nonprofits",
-  "edition": "Partner Developer",
+  "edition": "Developer",
   "features": ["AuthorApex","DebugApex"],
   "settings": {
         "lightningExperienceSettings": {
