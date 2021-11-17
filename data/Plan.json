@@ -4,7 +4,7 @@
         "saveRefs": true,
         "resolveRefs": true,
         "files": [
-            "invmgrnp__Location__cs.json"
+            "Location__cs.json"
         ]
     },
     {
@@ -12,7 +12,7 @@
         "saveRefs": true,
         "resolveRefs": true,
         "files": [
-            "invmgrnp__Item__cs.json"
+            "Item__cs.json"
         ]
     }
 ]

@@ -2,8 +2,8 @@
     "records": [
         {
             "attributes": {
-                "type": "invmgrnp__Location__c",
-                "referenceId": "invmgrnp__Location__cRef1"
+                "type": "Location__c",
+                "referenceId": "Location__cRef1"
             },
             "Name": "Door"
         }

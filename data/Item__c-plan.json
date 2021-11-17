@@ -4,7 +4,7 @@
         "saveRefs": true,
         "resolveRefs": false,
         "files": [
-            "invmgrnp__Item__cs.json"
+            "Item__cs.json"
         ]
     }
 ]
