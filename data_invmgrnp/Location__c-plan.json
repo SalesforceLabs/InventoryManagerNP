@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "invmgrnp__Location__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Location__cs.json"
+        ]
+    }
+]
