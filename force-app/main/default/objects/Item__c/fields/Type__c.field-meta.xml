@@ -4,7 +4,7 @@
     <description>Name of the item (i.e. Pampers)</description>
     <externalId>false</externalId>
     <inlineHelpText>Name of the item</inlineHelpText>
-    <label>Type/Tipo</label>
+    <label>Type</label>
     <length>250</length>
     <required>true</required>
     <trackTrending>false</trackTrending>

@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <fullName>Unit__c</fullName>
     <externalId>false</externalId>
-    <label>Unit/Unidad</label>
+    <label>Unit</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>

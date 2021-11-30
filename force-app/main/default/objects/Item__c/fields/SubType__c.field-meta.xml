@@ -3,7 +3,7 @@
     <fullName>SubType__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>SubType/SubTipo</label>
+    <label>SubType</label>
     <referenceTo>SubType__c</referenceTo>
     <relationshipLabel>Items</relationshipLabel>
     <relationshipName>Items</relationshipName>

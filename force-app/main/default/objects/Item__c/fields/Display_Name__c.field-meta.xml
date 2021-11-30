@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <formula>IF(ISBLANK(SubType__c),Type__c,Type__c  &amp; &#39; - &#39; &amp; SubType__r.Name)</formula>
     <inlineHelpText>Type and SubType (eg Diapers Small)</inlineHelpText>
-    <label>Name/Nombre</label>
+    <label>Name</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

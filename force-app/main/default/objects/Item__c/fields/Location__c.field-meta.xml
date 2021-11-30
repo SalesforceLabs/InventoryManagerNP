@@ -3,7 +3,7 @@
     <fullName>Location__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>Location/Locacion</label>
+    <label>Location</label>
     <referenceTo>Location__c</referenceTo>
     <relationshipLabel>Items</relationshipLabel>
     <relationshipName>Items</relationshipName>
