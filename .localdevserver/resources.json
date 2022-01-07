@@ -1,0 +1,125 @@
+{
+    "6589b167a3": {
+        "component://@webruntime/app@en": {
+            "dev": "ede600bfef"
+        },
+        "component://localdevserver/home@en": {
+            "dev": "c0efafa63a"
+        },
+        "component://localdevserver/preview@en": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/items@en": {
+            "dev": "194e41e754"
+        },
+        "component://c/modal@en": {
+            "dev": "1cc6e06d39"
+        },
+        "component://c/item@en": {
+            "dev": "c05b31aa45"
+        },
+        "component://c/itemCreate@en": {
+            "dev": "611688ee7d"
+        }
+    },
+    "c481d6ffe9": {
+        "component://@webruntime/app@en": {
+            "dev": "3917909a35"
+        },
+        "component://localdevserver/preview@en": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/items@en": {
+            "dev": "194e41e754"
+        },
+        "component://c/modal@en": {
+            "dev": "1cc6e06d39"
+        },
+        "component://c/item@en": {
+            "dev": "c05b31aa45"
+        },
+        "component://c/itemCreate@en": {
+            "dev": "611688ee7d"
+        }
+    },
+    "127a101107": {
+        "component://@webruntime/app@en": {
+            "dev": "ede600bfef"
+        },
+        "component://localdevserver/preview@en": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/items@en": {
+            "dev": "194e41e754"
+        },
+        "component://c/item@en": {
+            "dev": "c05b31aa45"
+        },
+        "component://c/modal@en": {
+            "dev": "1cc6e06d39"
+        },
+        "component://c/itemCreate@en": {
+            "dev": "611688ee7d"
+        }
+    },
+    "58cf5ac561": {
+        "component://@webruntime/app@en": {
+            "dev": "3917909a35"
+        },
+        "component://localdevserver/preview@en": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/items@en": {
+            "dev": "194e41e754"
+        },
+        "component://c/modal@en": {
+            "dev": "1cc6e06d39"
+        },
+        "component://c/item@en": {
+            "dev": "c05b31aa45"
+        },
+        "component://c/itemCreate@en": {
+            "dev": "611688ee7d"
+        }
+    },
+    "dee522d449": {
+        "component://@webruntime/app@en": {
+            "dev": "ede600bfef"
+        },
+        "component://localdevserver/preview@en": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/items@en": {
+            "dev": "194e41e754"
+        },
+        "component://c/item@en": {
+            "dev": "c05b31aa45"
+        },
+        "component://c/modal@en": {
+            "dev": "1cc6e06d39"
+        },
+        "component://c/itemCreate@en": {
+            "dev": "611688ee7d"
+        }
+    },
+    "0e82987469": {
+        "component://@webruntime/app@en": {
+            "dev": "ede600bfef"
+        },
+        "component://localdevserver/preview@en": {
+            "dev": "d8da1a15eb"
+        },
+        "component://c/items@en": {
+            "dev": "5f2f2a22f6"
+        },
+        "component://c/modal@en": {
+            "dev": "1cc6e06d39"
+        },
+        "component://c/item@en": {
+            "dev": "cff87f1f01"
+        },
+        "component://c/itemCreate@en": {
+            "dev": "611688ee7d"
+        }
+    }
+}
