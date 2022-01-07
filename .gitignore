@@ -30,3 +30,4 @@ $RECYCLE.BIN/
 .vscode/
 
 manifest/
+.localdevserver/
