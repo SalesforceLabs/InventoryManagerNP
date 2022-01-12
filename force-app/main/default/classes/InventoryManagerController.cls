@@ -20,7 +20,7 @@ public with sharing class InventoryManagerController {
         Map<String, String> userSettings = new Map<String, String>();
 
         try{
-            Location__c location = [select id from Location__c where Assigned_User__c=:UserInfo.getUserId()];
+            Location__c location = [select id from Location__c where Assigned_User__c=:UserInfo.getUserId() WITH SECURITY_ENFORCED];
             userSettings.put('Location', location.Id);
         }catch(Exception e){ userSettings.put('Location', null); }
 
