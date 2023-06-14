@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>items</componentName>
-        </componentInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>items</componentName>
+                <identifier>items</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Inventory Manager</masterLabel>
+    <masterLabel>Inventory Managerc2</masterLabel>
     <template>
         <name>flexipage:defaultAppHomeTemplate</name>
     </template>

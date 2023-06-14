@@ -165,12 +165,10 @@
         <lookupDialogsAdditionalFields>Display_Name__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Type__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>SubType__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields xsi:nil="true"/>
         <searchResultsAdditionalFields>Display_Name__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Location__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SubType__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields xsi:nil="true"/>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

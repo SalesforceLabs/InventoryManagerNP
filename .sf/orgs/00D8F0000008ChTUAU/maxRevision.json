@@ -1,0 +1,533 @@
+{
+  "serverMaxRevisionCounter": 201,
+  "sourceMembers": {
+    "ListView__Item_Action__c.All": {
+      "serverRevisionCounter": 87,
+      "lastRetrievedFromServer": 87,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Item__c.All": {
+      "serverRevisionCounter": 88,
+      "lastRetrievedFromServer": 88,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Item__c.Low_Inventory_Items": {
+      "serverRevisionCounter": 89,
+      "lastRetrievedFromServer": 89,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Location__c.All": {
+      "serverRevisionCounter": 90,
+      "lastRetrievedFromServer": 90,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__SubType__c.All": {
+      "serverRevisionCounter": 91,
+      "lastRetrievedFromServer": 91,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "Group__Inventory_Manager_Content": {
+      "serverRevisionCounter": 78,
+      "lastRetrievedFromServer": 78,
+      "memberType": "Group",
+      "isNameObsolete": false
+    },
+    "CustomField__Item_Action__c.Item__c": {
+      "serverRevisionCounter": 28,
+      "lastRetrievedFromServer": 28,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Inventory_Manager__mdt.isEnabled__c": {
+      "serverRevisionCounter": 30,
+      "lastRetrievedFromServer": 30,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item_Action__c.Action__c": {
+      "serverRevisionCounter": 31,
+      "lastRetrievedFromServer": 31,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item_Action__c.Count__c": {
+      "serverRevisionCounter": 32,
+      "lastRetrievedFromServer": 32,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item_Action__c.Location__c": {
+      "serverRevisionCounter": 33,
+      "lastRetrievedFromServer": 33,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item_Action__c.User__c": {
+      "serverRevisionCounter": 35,
+      "lastRetrievedFromServer": 35,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Active__c": {
+      "serverRevisionCounter": 37,
+      "lastRetrievedFromServer": 37,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Category__c": {
+      "serverRevisionCounter": 39,
+      "lastRetrievedFromServer": 39,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Count__c": {
+      "serverRevisionCounter": 40,
+      "lastRetrievedFromServer": 40,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Item_Description__c": {
+      "serverRevisionCounter": 42,
+      "lastRetrievedFromServer": 42,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Location__c": {
+      "serverRevisionCounter": 43,
+      "lastRetrievedFromServer": 43,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.SubType__c": {
+      "serverRevisionCounter": 45,
+      "lastRetrievedFromServer": 45,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Threshhold_Limit__c": {
+      "serverRevisionCounter": 48,
+      "lastRetrievedFromServer": 48,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Type__c": {
+      "serverRevisionCounter": 49,
+      "lastRetrievedFromServer": 49,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Unit__c": {
+      "serverRevisionCounter": 50,
+      "lastRetrievedFromServer": 50,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Location__c.Assigned_User__c": {
+      "serverRevisionCounter": 51,
+      "lastRetrievedFromServer": 51,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Location__c.Location_Type__c": {
+      "serverRevisionCounter": 53,
+      "lastRetrievedFromServer": 53,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Below_Threshhold__c": {
+      "serverRevisionCounter": 38,
+      "lastRetrievedFromServer": 38,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Display_Name__c": {
+      "serverRevisionCounter": 41,
+      "lastRetrievedFromServer": 41,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Item__c.Sub_Category__c": {
+      "serverRevisionCounter": 47,
+      "lastRetrievedFromServer": 47,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Report__InventoryManagement/Item_Count_by_Location_Zam": {
+      "serverRevisionCounter": 96,
+      "lastRetrievedFromServer": 96,
+      "memberType": "Report",
+      "isNameObsolete": false
+    },
+    "Report__InventoryManagement/Low_Inventory_Items_vug": {
+      "serverRevisionCounter": 97,
+      "lastRetrievedFromServer": 97,
+      "memberType": "Report",
+      "isNameObsolete": false
+    },
+    "Report__InventoryManagement/Low_Quantity_Items_hn8": {
+      "serverRevisionCounter": 98,
+      "lastRetrievedFromServer": 98,
+      "memberType": "Report",
+      "isNameObsolete": false
+    },
+    "Report__InventoryManagement/Low_Quantity_Items_wuX": {
+      "serverRevisionCounter": 99,
+      "lastRetrievedFromServer": 99,
+      "memberType": "Report",
+      "isNameObsolete": false
+    },
+    "Report__InventoryManagement/Out_of_Stock_Items_1nm": {
+      "serverRevisionCounter": 100,
+      "lastRetrievedFromServer": 100,
+      "memberType": "Report",
+      "isNameObsolete": false
+    },
+    "Profile__Admin": {
+      "serverRevisionCounter": 27,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Layout__Inventory_Manager__mdt-Inventory Manager Layout": {
+      "serverRevisionCounter": 103,
+      "lastRetrievedFromServer": 103,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Item__c-Item Layout": {
+      "serverRevisionCounter": 104,
+      "lastRetrievedFromServer": 104,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Location__c-Location Layout": {
+      "serverRevisionCounter": 105,
+      "lastRetrievedFromServer": 105,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "ReportFolder__InventoryManagement": {
+      "serverRevisionCounter": 95,
+      "lastRetrievedFromServer": 95,
+      "memberType": "ReportFolder",
+      "isNameObsolete": false
+    },
+    "DashboardFolder__InventoryManagement": {
+      "serverRevisionCounter": 101,
+      "lastRetrievedFromServer": 101,
+      "memberType": "DashboardFolder",
+      "isNameObsolete": false
+    },
+    "CustomObject__Inventory_Manager__mdt": {
+      "serverRevisionCounter": 79,
+      "lastRetrievedFromServer": 79,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomObject__Item_Action__c": {
+      "serverRevisionCounter": 80,
+      "lastRetrievedFromServer": 80,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomObject__Item__c": {
+      "serverRevisionCounter": 81,
+      "lastRetrievedFromServer": 81,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomObject__Location__c": {
+      "serverRevisionCounter": 82,
+      "lastRetrievedFromServer": 82,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomObject__SubType__c": {
+      "serverRevisionCounter": 83,
+      "lastRetrievedFromServer": 83,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "Dashboard__InventoryManagement/zaHGpPgbYyrIupLYyMYAcUIDzfBIcp": {
+      "serverRevisionCounter": 102,
+      "lastRetrievedFromServer": 102,
+      "memberType": "Dashboard",
+      "isNameObsolete": false
+    },
+    "ApexClass__InventoryManagerController": {
+      "serverRevisionCounter": 56,
+      "lastRetrievedFromServer": 56,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__InventoryManagerControllerTest": {
+      "serverRevisionCounter": 57,
+      "lastRetrievedFromServer": 57,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__ItemController": {
+      "serverRevisionCounter": 58,
+      "lastRetrievedFromServer": 58,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__ItemControllerTest": {
+      "serverRevisionCounter": 59,
+      "lastRetrievedFromServer": 59,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__Util": {
+      "serverRevisionCounter": 60,
+      "lastRetrievedFromServer": 60,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "CustomTab__Inventory_Manager": {
+      "serverRevisionCounter": 110,
+      "lastRetrievedFromServer": 110,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomTab__Item_Action__c": {
+      "serverRevisionCounter": 111,
+      "lastRetrievedFromServer": 111,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomTab__Item__c": {
+      "serverRevisionCounter": 112,
+      "lastRetrievedFromServer": 112,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomTab__Location__c": {
+      "serverRevisionCounter": 113,
+      "lastRetrievedFromServer": 113,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomTab__SubType__c": {
+      "serverRevisionCounter": 114,
+      "lastRetrievedFromServer": 114,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomApplication__Borderforce_Inventory_Management": {
+      "serverRevisionCounter": 197,
+      "lastRetrievedFromServer": 197,
+      "memberType": "CustomApplication",
+      "isNameObsolete": false
+    },
+    "ContentAsset__Guide_to_Inventory_Management_App": {
+      "serverRevisionCounter": 116,
+      "lastRetrievedFromServer": 116,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "ValidationRule__Item_Action__c.Inventory_Cannot_Be_Less_Than_Zero": {
+      "serverRevisionCounter": 85,
+      "lastRetrievedFromServer": 85,
+      "memberType": "ValidationRule",
+      "isNameObsolete": false
+    },
+    "ValidationRule__Item__c.Item_Count_cannot_be_negative": {
+      "serverRevisionCounter": 86,
+      "lastRetrievedFromServer": 86,
+      "memberType": "ValidationRule",
+      "isNameObsolete": false
+    },
+    "ReportType__Item_Quantities_by_Location": {
+      "serverRevisionCounter": 92,
+      "lastRetrievedFromServer": 92,
+      "memberType": "ReportType",
+      "isNameObsolete": false
+    },
+    "ReportType__Items_with_Inventory_Items_with_Item_Actions": {
+      "serverRevisionCounter": 93,
+      "lastRetrievedFromServer": 93,
+      "memberType": "ReportType",
+      "isNameObsolete": false
+    },
+    "ReportType__Subtypes": {
+      "serverRevisionCounter": 94,
+      "lastRetrievedFromServer": 94,
+      "memberType": "ReportType",
+      "isNameObsolete": false
+    },
+    "CompactLayout__Item__c.Item_Compact_Layout": {
+      "serverRevisionCounter": 84,
+      "lastRetrievedFromServer": 84,
+      "memberType": "CompactLayout",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Borderforce_Inventory_Management_UtilityBar": {
+      "serverRevisionCounter": 198,
+      "lastRetrievedFromServer": 198,
+      "memberType": "FlexiPage",
+      "isNameObsolete": true
+    },
+    "FlexiPage__Home_Page_Default": {
+      "serverRevisionCounter": 194,
+      "lastRetrievedFromServer": 194,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Inventory_Manager": {
+      "serverRevisionCounter": 195,
+      "lastRetrievedFromServer": 195,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Item_Record_Page1": {
+      "serverRevisionCounter": 196,
+      "lastRetrievedFromServer": 196,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "PermissionSet__Inventory_Management_full": {
+      "serverRevisionCounter": 117,
+      "lastRetrievedFromServer": 117,
+      "memberType": "PermissionSet",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__item": {
+      "serverRevisionCounter": 61,
+      "lastRetrievedFromServer": 61,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__itemCreate": {
+      "serverRevisionCounter": 65,
+      "lastRetrievedFromServer": 65,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__items": {
+      "serverRevisionCounter": 69,
+      "lastRetrievedFromServer": 69,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__modal": {
+      "serverRevisionCounter": 73,
+      "lastRetrievedFromServer": 73,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__item/item.html": {
+      "serverRevisionCounter": 62,
+      "lastRetrievedFromServer": 62,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__item/item.js": {
+      "serverRevisionCounter": 63,
+      "lastRetrievedFromServer": 63,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__item/item.js-meta.xml": {
+      "serverRevisionCounter": 64,
+      "lastRetrievedFromServer": 64,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__itemCreate/itemCreate.js": {
+      "serverRevisionCounter": 66,
+      "lastRetrievedFromServer": 66,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__itemCreate/itemCreate.js-meta.xml": {
+      "serverRevisionCounter": 67,
+      "lastRetrievedFromServer": 67,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__itemCreate/itemCreate.html": {
+      "serverRevisionCounter": 68,
+      "lastRetrievedFromServer": 68,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__items/items.js-meta.xml": {
+      "serverRevisionCounter": 70,
+      "lastRetrievedFromServer": 70,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__items/items.html": {
+      "serverRevisionCounter": 71,
+      "lastRetrievedFromServer": 71,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__items/items.js": {
+      "serverRevisionCounter": 72,
+      "lastRetrievedFromServer": 72,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__modal/modal.html": {
+      "serverRevisionCounter": 74,
+      "lastRetrievedFromServer": 74,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__modal/modal.js-meta.xml": {
+      "serverRevisionCounter": 75,
+      "lastRetrievedFromServer": 75,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__modal/modal.js": {
+      "serverRevisionCounter": 76,
+      "lastRetrievedFromServer": 76,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__modal/modal.css": {
+      "serverRevisionCounter": 77,
+      "lastRetrievedFromServer": 77,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "CustomMetadata__Inventory_Manager.Log_Item_Actions": {
+      "serverRevisionCounter": 54,
+      "lastRetrievedFromServer": 54,
+      "memberType": "CustomMetadata",
+      "isNameObsolete": false
+    },
+    "CustomMetadata__Inventory_Manager.Show_Items_in_Locations_without_User": {
+      "serverRevisionCounter": 55,
+      "lastRetrievedFromServer": 55,
+      "memberType": "CustomMetadata",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Inventory_Manager2": {
+      "serverRevisionCounter": 200,
+      "lastRetrievedFromServer": 200,
+      "memberType": "FlexiPage",
+      "isNameObsolete": true
+    },
+    "FlexiPage__Home_Page_Default2": {
+      "serverRevisionCounter": 201,
+      "lastRetrievedFromServer": 201,
+      "memberType": "FlexiPage",
+      "isNameObsolete": true
+    },
+    "FlexiPage__Item_Record_Page2": {
+      "serverRevisionCounter": 199,
+      "lastRetrievedFromServer": 199,
+      "memberType": "FlexiPage",
+      "isNameObsolete": true
+    }
+  }
+}
